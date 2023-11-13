@@ -176,7 +176,7 @@ export const Navigation = () => {
     const promise = create({
       title: "Untitle",
     }).then((documentId) =>
-      router.push(`/document/${documentId}`)
+      router.push(`/documents/${documentId}`)
     );
 
     toast.promise(promise, {
